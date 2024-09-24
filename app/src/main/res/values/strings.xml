@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Goally</string>
+    <string name="checking_for_server_status">Checking for server status...</string>
+    <string name="copilot">Copilot</string>
+    <string name="rewards">Rewards</string>
+    <string name="email_example">john@gmail.com</string>
+    <string name="please_your_original_email">Please your original email</string>
+</resources>
