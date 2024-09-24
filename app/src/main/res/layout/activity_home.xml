@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ui.splash.SplashActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvEmail"
+        android:fontFamily="@font/poppins_semibold"
+        android:textSize="@dimen/_14sdp"
+        android:gravity="center"
+        android:padding="@dimen/_10sdp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="Your registered email goes here"/>
+
+    <LinearLayout
+        android:id="@+id/llApps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/llCopilot"
+            android:layout_width="@dimen/_58sdp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/ivCopilotLogo"
+                android:layout_width="@dimen/_58sdp"
+                android:layout_height="@dimen/_58sdp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/ic_new_home_copilot"
+                android:paddingHorizontal="@dimen/_3sdp"
+                android:paddingVertical="@dimen/_7sdp" />
+
+
+            <TextView
+                android:id="@+id/ivCopilotTitle"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_22sdp"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="@font/poppins_medium"
+                android:gravity="center"
+                android:lines="2"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_8sdp"
+                app:fontFamily="@font/poppins_medium"
+                tools:text="@string/copilot" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llRewards"
+            android:layout_width="@dimen/_58sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_18sdp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/ivRewardLogo"
+                android:layout_width="@dimen/_58sdp"
+                android:layout_height="@dimen/_58sdp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/ic_new_home_rewards"
+                android:paddingHorizontal="@dimen/_3sdp"
+                android:paddingVertical="@dimen/_7sdp" />
+
+
+            <TextView
+                android:id="@+id/tvRewardTitle"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_22sdp"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="@font/poppins_medium"
+                android:gravity="center"
+                android:lines="2"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_8sdp"
+                app:fontFamily="@font/poppins_medium"
+                tools:text="@string/rewards" />
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

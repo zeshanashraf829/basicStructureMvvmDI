@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "652291450175",
+    "project_id": "goally-assignment",
+    "storage_bucket": "goally-assignment.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:652291450175:android:83152c40ef8e4c89c7df8a",
+        "android_client_info": {
+          "package_name": "com.android.goally"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLAkzeBqbGPgknNprMagMeZa4ZXcTfkD8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
